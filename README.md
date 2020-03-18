@@ -13,9 +13,8 @@ A) Criação de Web App Utilizando JSF
 B) Persistência em banco de dados
 
 G) Primefaces
-  Alguns elementos do PrimeFaces
-
-J) Heroku
+  Alguns elementos do PrimeFaces. 
+    i.e. tabela e botões.
 
 
 ---------Instruções para rodar em um ambiente local--------------
