@@ -41,7 +41,7 @@ J) Heroku
 
 4) Um browser vai abrir no Eclipse, onde o aplicativo estará executando.
 
-5) Após o passo 4, a aplicação estará acessível de qualquer browser, basta digitar localhost:8080
+5) Após o passo 4, a aplicação estará acessível de qualquer browser, basta digitar http://localhost:8080/esig-crud-master/faces/list-students.xhtml
 
   
       
