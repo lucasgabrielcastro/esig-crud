@@ -12,3 +12,6 @@ B) Persistência em banco de dados
 G) Primefaces
 
 J) Heroku
+
+
+Instruções para rodar em um ambiente local
