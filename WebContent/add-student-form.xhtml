@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title>Registrar Estudante</title>
+	
+	<h:outputStylesheet library="css" name="style.css"  />
+	<h:outputStylesheet library="css" name="add-student-style.css"  />
+	
+</h:head>
+
+<h:body>
+
+	<div id="wrapper">
+		<div id="header">
+			<h2>ESIG-CRUD - Banco de Dados de Estudantes</h2>
+		</div>
+	</div>
+	
+	<div id="container">
+		<h3>Registrar Estudante</h3>
+
+		<h:messages globalOnly="true" />
+		<div class="p-grid">
+		<h:form id="form" style="margin-top: 10px;" >
+			<p:panelGrid columns="3">
+				
+				<h:outputLabel>Nome:</h:outputLabel> <p:inputText value="#{student.firstName}" id="firstName" /> <h:message for="firstName" />
+	
+				<h:outputLabel>Sobrenome:</h:outputLabel> <p:inputText value="#{student.lastName}" id="lastName" /> <h:message for="lastName" />
+	
+				<h:outputLabel>Email:</h:outputLabel> <p:inputText value="#{student.email}" id="email" required="true" requiredMessage="Campo Obrigatório."/> 	<h:message for="email" />
+				
+				<h:outputLabel /> <p:commandButton value="Salvar" styleClass="ui-priority-primary" action="#{studentController.addStudent(student)}"/> <h:outputLabel />
+				
+		
+			</p:panelGrid>
+		</h:form>
+		</div>
+		<div style="clear: both;"></div>
+
+		<p><h:outputLink value="list-students.xhtml">Back to List</h:outputLink></p>
+
+	</div>	
+</h:body>
+</html>
