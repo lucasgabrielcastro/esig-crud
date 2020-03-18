@@ -13,8 +13,8 @@ A) Criação de Web App Utilizando JSF
 B) Persistência em banco de dados
 
 G) Primefaces
-  Alguns elementos do PrimeFaces. 
-    i.e. tabela e botões.
+  Alguns elementos da aplicação
+  i.e. tabela e botões.
 
 
 ---------Instruções para rodar em um ambiente local--------------
